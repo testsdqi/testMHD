@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        Console.WriteLine("enter number: ");
+        Console.Write("enter number: ");
         int a = int.Parse(Console.ReadLine());
         string s = a switch
         {
