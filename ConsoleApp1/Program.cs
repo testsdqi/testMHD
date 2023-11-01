@@ -17,6 +17,6 @@
                 break;
             default: Console.WriteLine("Error"); break;
         }
-        Console.ReadKey();
+        
     }
 }
