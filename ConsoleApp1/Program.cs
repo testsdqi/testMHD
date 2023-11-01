@@ -2,21 +2,22 @@
 {
     static void Main()
     {
-        Console.Write("Enter number: ");
+        Console.Write("Enter value: ");
         int a = int.Parse(Console.ReadLine());
-        switch (a)
+        if (a==1)
         {
-            case 1:
-                Console.WriteLine("One");
-                break;
-            case 2:
-                Console.WriteLine("Two");
-                break;
-            case 3:
-                Console.WriteLine("Three");
-                break;
-            default: Console.WriteLine("Error"); break;
+            Console.WriteLine("One");
         }
-        
+        else if(a==2)
+        {
+            Console.WriteLine("two");
+        }
+        else if (a == 3)
+        {
+            Console.WriteLine("three");
+        }
+        else
+            Console.WriteLine("error");
+        Console.ReadKey();
     }
 }
